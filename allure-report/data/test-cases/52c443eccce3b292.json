@@ -1,0 +1,177 @@
+{
+  "uid" : "52c443eccce3b292",
+  "name" : "Sending random data to username field",
+  "fullName" : "Testing username under difference data.Sending random data to username field",
+  "historyId" : "611f56a0207f2291927422e463947470",
+  "time" : {
+    "start" : 1624830910979,
+    "stop" : 1624830912727,
+    "duration" : 1748
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1624830910982,
+        "stop" : 1624830911496,
+        "duration" : 514
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6540c22ea7ce3a3e",
+        "name" : "Request",
+        "source" : "6540c22ea7ce3a3e.json",
+        "type" : "application/json",
+        "size" : 87
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1624830911499,
+        "stop" : 1624830911544,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35b50c36ff61b52b",
+        "name" : "Request",
+        "source" : "35b50c36ff61b52b.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "734b0e86e67d01f4",
+        "name" : "Response",
+        "source" : "734b0e86e67d01f4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b7a8d909-3311-4498-bf17-4fc5c741d903/clear",
+      "time" : {
+        "start" : 1624830911555,
+        "stop" : 1624830911590,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/b7a8d909-3311-4498-bf17-4fc5c741d903/value",
+      "time" : {
+        "start" : 1624830911595,
+        "stop" : 1624830911770,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7f910c57d3bfa67",
+        "name" : "Request",
+        "source" : "b7f910c57d3bfa67.json",
+        "type" : "application/json",
+        "size" : 44
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing username under difference data"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing username under difference data"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sending random data to username field"
+  }, {
+    "name" : "package",
+    "value" : "Testing username under difference data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "55eabcc106ece8da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624830859906,
+        "stop" : 1624830860930,
+        "duration" : 1024
+      }
+    }, {
+      "uid" : "1432497ef9eb2241",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"[name=\"username\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1624830807403,
+        "stop" : 1624830817630,
+        "duration" : 10227
+      }
+    }, {
+      "uid" : "7fd03c2c67fcc14c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624830350397,
+        "stop" : 1624830350411,
+        "duration" : 14
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52c443eccce3b292.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

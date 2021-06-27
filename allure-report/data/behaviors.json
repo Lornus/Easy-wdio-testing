@@ -1,83 +1,122 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "Verifying url is correct",
-    "uid" : "cd0c1baf1773adee",
+    "uid" : "c134c7a45257b43b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1624828556524,
-      "stop" : 1624828558091,
-      "duration" : 1567
+      "start" : 1624830349376,
+      "stop" : 1624830351676,
+      "duration" : 2300
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome-91.0.4472.114" ]
   }, {
     "name" : "Checking logo displayed correctly",
-    "uid" : "d60573414d67f779",
+    "uid" : "1ab9a584615ff0dc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1624828558092,
-      "stop" : 1624828558183,
-      "duration" : 91
+      "start" : 1624830351677,
+      "stop" : 1624830351761,
+      "duration" : 84
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome-91.0.4472.114" ]
   }, {
     "name" : "Verifying h1 element is displayed correctly",
-    "uid" : "5ccc8d72a0749250",
+    "uid" : "c492e83ed82a180a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1624828558184,
-      "stop" : 1624828558213,
-      "duration" : 29
+      "start" : 1624830351761,
+      "stop" : 1624830351792,
+      "duration" : 31
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome-91.0.4472.114" ]
   }, {
     "name" : "Checking username field displayed correctly",
-    "uid" : "b05089c1ae48af67",
+    "uid" : "b352a170a3ac8e3a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1624828558213,
-      "stop" : 1624828558260,
-      "duration" : 47
+      "start" : 1624830351792,
+      "stop" : 1624830351854,
+      "duration" : 62
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome-91.0.4472.114" ]
   }, {
     "name" : "Verifying password field displayed correctly",
-    "uid" : "a224ec11b4fa9f0",
+    "uid" : "188cbb8d7413fd55",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1624828558260,
-      "stop" : 1624828558313,
-      "duration" : 53
+      "start" : 1624830351854,
+      "stop" : 1624830351898,
+      "duration" : 44
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome-91.0.4472.114" ]
   }, {
     "name" : "Checking login button displayed correctly",
-    "uid" : "c798c5b9846ee97",
+    "uid" : "e3b421731c3ca32",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1624828558313,
-      "stop" : 1624828558365,
-      "duration" : 52
+      "start" : 1624830351898,
+      "stop" : 1624830351943,
+      "duration" : 45
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome-91.0.4472.114" ]
-  } ],
-  "name" : "behaviors"
+  }, {
+    "name" : "Sending random data to username field",
+    "uid" : "52c443eccce3b292",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624830910979,
+      "stop" : 1624830912727,
+      "duration" : 1748
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-91.0.4472.114" ]
+  }, {
+    "name" : "Sending random pass to password field and random email to username field",
+    "uid" : "36c276d05d31d726",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624832523671,
+      "stop" : 1624832526852,
+      "duration" : 3181
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-91.0.4472.114" ]
+  }, {
+    "name" : "Sending random pass to password field and random name to username field",
+    "uid" : "6bcbe3624347b1d5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624832526852,
+      "stop" : 1624832528280,
+      "duration" : 1428
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-91.0.4472.114" ]
+  } ]
 }

@@ -28,7 +28,7 @@ exports.config = {
     ],
     // Patterns to exclude.
     exclude: [
-        // 'path/to/excluded/files'
+        './tests/specs/**/register.page.test.js'
     ],
     //
     // ============
@@ -223,8 +223,16 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: function (
+        test,
+        context,
+        { error, result, duration, passed, retries }
+    ) {
+        // take a screenshot anytime a test fails and throws an error
+        if (error) {
+            browser.takeScreenshot();
+        }
+    },
 
 
     /**

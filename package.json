@@ -7,6 +7,7 @@
     "@wdio/cli": "^7.7.4",
     "allure-commandline": "^2.13.8",
     "chai": "^4.3.4",
+    "faker": "^5.5.3",
     "wdio-allure-reporter": "^0.8.3",
     "webdriverio": "^7.7.4"
   },

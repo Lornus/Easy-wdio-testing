@@ -59,6 +59,12 @@ class RegisterPage {
         return userFieldAttribute
     }
 
+    async setUsernameValue(value){
+        let userName = await (
+            await this.UserNameField).setValue(value)
+        return userName
+    }
+
     async checkPassFieldClickable() {
         let passFieldIsClickable = await (
             await this.PassField).isClickable()
@@ -71,6 +77,12 @@ class RegisterPage {
         return passFieldAttribute
     }
 
+    async setPassword(value){
+        let password = await (
+            await this.PassField).setValue(value)
+        return password
+    }
+
     async checkLogBtnClickable() {
         let logBtnClickable = await (
             await this.LoginBtn).isClickable()
@@ -80,6 +92,12 @@ class RegisterPage {
         let logBtnAttribute = await (
             await this.LoginBtn).getAttribute(value)
         return logBtnAttribute
+    }
+
+    async clickOnLoginBtn(){
+        let clicked = await(
+            await this.LoginBtn).click()
+        return clicked
     }
 
 }
