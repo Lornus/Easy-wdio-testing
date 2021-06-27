@@ -34,7 +34,6 @@ describe('Testing username under difference data', () => {
 
         await browser.pause(950)
 
-        console.log("EMAIL:", randomUName, "\nPASS: ", randomPass)
 
     })
 })
