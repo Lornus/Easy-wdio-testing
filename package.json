@@ -1,0 +1,35 @@
+{
+  "name": "petrenkotesttask",
+  "version": "1.0.0",
+  "description": "Repo with test task",
+  "main": "index.js",
+  "dependencies": {
+    "@wdio/cli": "^7.7.4",
+    "allure-commandline": "^2.13.8",
+    "chai": "^4.3.4",
+    "wdio-allure-reporter": "^0.8.3",
+    "webdriverio": "^7.7.4"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.7.3",
+    "@wdio/junit-reporter": "^7.7.3",
+    "@wdio/local-runner": "^7.7.4",
+    "@wdio/mocha-framework": "^7.7.4",
+    "@wdio/spec-reporter": "^7.7.3",
+    "chromedriver": "^91.0.1",
+    "wdio-chromedriver-service": "^7.1.1"
+  },
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lornus/PetrenkoTestTask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lornus/PetrenkoTestTask/issues"
+  },
+  "homepage": "https://github.com/Lornus/PetrenkoTestTask#readme"
+}

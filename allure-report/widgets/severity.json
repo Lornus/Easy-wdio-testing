@@ -1,0 +1,61 @@
+[ {
+  "uid" : "a224ec11b4fa9f0",
+  "name" : "Verifying password field displayed correctly",
+  "time" : {
+    "start" : 1624828558260,
+    "stop" : 1624828558313,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd0c1baf1773adee",
+  "name" : "Verifying url is correct",
+  "time" : {
+    "start" : 1624828556524,
+    "stop" : 1624828558091,
+    "duration" : 1567
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ccc8d72a0749250",
+  "name" : "Verifying h1 element is displayed correctly",
+  "time" : {
+    "start" : 1624828558184,
+    "stop" : 1624828558213,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c798c5b9846ee97",
+  "name" : "Checking login button displayed correctly",
+  "time" : {
+    "start" : 1624828558313,
+    "stop" : 1624828558365,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d60573414d67f779",
+  "name" : "Checking logo displayed correctly",
+  "time" : {
+    "start" : 1624828558092,
+    "stop" : 1624828558183,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b05089c1ae48af67",
+  "name" : "Checking username field displayed correctly",
+  "time" : {
+    "start" : 1624828558213,
+    "stop" : 1624828558260,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

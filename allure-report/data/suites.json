@@ -1,0 +1,87 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Verifying all elements are on page",
+    "children" : [ {
+      "name" : "Verifying url is correct",
+      "uid" : "cd0c1baf1773adee",
+      "parentUid" : "cdc38cb73724812b46817ef2032894dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624828556524,
+        "stop" : 1624828558091,
+        "duration" : 1567
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Checking logo displayed correctly",
+      "uid" : "d60573414d67f779",
+      "parentUid" : "cdc38cb73724812b46817ef2032894dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624828558092,
+        "stop" : 1624828558183,
+        "duration" : 91
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Verifying h1 element is displayed correctly",
+      "uid" : "5ccc8d72a0749250",
+      "parentUid" : "cdc38cb73724812b46817ef2032894dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624828558184,
+        "stop" : 1624828558213,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Checking username field displayed correctly",
+      "uid" : "b05089c1ae48af67",
+      "parentUid" : "cdc38cb73724812b46817ef2032894dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624828558213,
+        "stop" : 1624828558260,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Verifying password field displayed correctly",
+      "uid" : "a224ec11b4fa9f0",
+      "parentUid" : "cdc38cb73724812b46817ef2032894dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624828558260,
+        "stop" : 1624828558313,
+        "duration" : 53
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Checking login button displayed correctly",
+      "uid" : "c798c5b9846ee97",
+      "parentUid" : "cdc38cb73724812b46817ef2032894dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624828558313,
+        "stop" : 1624828558365,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    } ],
+    "uid" : "cdc38cb73724812b46817ef2032894dd"
+  } ],
+  "name" : "suites"
+}
