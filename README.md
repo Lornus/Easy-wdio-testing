@@ -2,9 +2,10 @@
 Repo with test task 
 
 # How to run if you have Node
-1. npm init 
-2. npm test 
-3. To see report - npm run report 
+1. Clone thid repo
+2. npm install 
+3. npm test 
+4. To see report - npm run report 
 
 # If you don't have Node 
 1. Download Node.js (https://nodejs.org/en/download/)
