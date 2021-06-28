@@ -16,6 +16,8 @@ describe('Testing username under difference data', () => {
 
         await registerPage.clickOnLoginBtn()
 
+        assert.strictEqual(await registerPage.getNoUserText(), "No account found with that username.")
+
         await browser.pause(950)
 
 
@@ -32,9 +34,9 @@ describe('Testing username under difference data', () => {
 
         await registerPage.clickOnLoginBtn()
 
-        await browser.pause(950)
+        assert.strictEqual(await registerPage.getNoUserText(), "No account found with that username1.")
 
-        console.log("EMAIL:", randomUName, "\nPASS: ", randomPass)
+        await browser.pause(950)
 
     })
 })

@@ -1,3 +1,5 @@
+const video = require('wdio-video-reporter');
+
 exports.config = {
     //
     // ====================
@@ -135,8 +137,16 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec', 'allure'],
-
+        reporters: [
+    [video, {
+        saveAllVideos: false,       // If true, also saves videos for successful test cases
+        videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+    }],
+    ['allure', {
+        disableWebdriverStepsReporting: false,
+        disableWebdriverScreenshotsReporting: false,
+    }],
+],
 
     
     //
@@ -223,16 +233,10 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    afterTest: function (
-        test,
-        context,
-        { error, result, duration, passed, retries }
-    ) {
-        // take a screenshot anytime a test fails and throws an error
-        if (error) {
-            browser.takeScreenshot();
-        }
-    },
+    afterTest: async function (test, scenario, { error, duration, passed }) {
+        if (error) await browser.takeScreenshot();
+
+    }
 
 
     /**

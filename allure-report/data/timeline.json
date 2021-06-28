@@ -4,534 +4,417 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Sending random pass to password field and random email to username field",
-      "uid" : "d78c9943fb414354",
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "1deca99148db3257",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1624831848499,
-        "stop" : 1624831852129,
-        "duration" : 3630
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Checking logo displayed correctly",
-      "uid" : "ee8ba3fdcea53ab3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828413513,
-        "stop" : 1624828413611,
-        "duration" : 98
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random pass to password field and random email to username field",
-      "uid" : "8b471f00ebb6005a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624831652588,
-        "stop" : 1624831655233,
-        "duration" : 2645
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Checking username field displayed correctly",
-      "uid" : "b352a170a3ac8e3a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624830351792,
-        "stop" : 1624830351854,
-        "duration" : 62
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Checking login button displayed correctly",
-      "uid" : "b3ced5ce9e3b50ed",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828558313,
-        "stop" : 1624828558365,
-        "duration" : 52
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random pass to password field and random email to username field",
-      "uid" : "62c5a73623cb970a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624831559724,
-        "stop" : 1624831561828,
-        "duration" : 2104
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Checking logo displayed correctly",
-      "uid" : "e3d3e42b4c284227",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828260666,
-        "stop" : 1624828260826,
-        "duration" : 160
+        "start" : 1624890663711,
+        "stop" : 1624890664722,
+        "duration" : 1011
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "Sending random pass to password field and random name to username field",
-      "uid" : "6bcbe3624347b1d5",
+      "uid" : "31d197ebc05914ae",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1624832526852,
-        "stop" : 1624832528280,
-        "duration" : 1428
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random pass to password field and random name to username field",
-      "uid" : "1174860cc3cea61f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624831561829,
-        "stop" : 1624831563539,
-        "duration" : 1710
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Verifying url is correct",
-      "uid" : "53234f761f8f2b57",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828411877,
-        "stop" : 1624828413512,
-        "duration" : 1635
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Verifying url is correct",
-      "uid" : "c134c7a45257b43b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624830349376,
-        "stop" : 1624830351676,
-        "duration" : 2300
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random pass to password field and random email to username field",
-      "uid" : "877584eb406c2d7f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624832231215,
-        "stop" : 1624832234262,
-        "duration" : 3047
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Verifying password field displayed correctly",
-      "uid" : "a0b1b86d50c0752c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828558260,
-        "stop" : 1624828558313,
-        "duration" : 53
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Checking login button displayed correctly",
-      "uid" : "10666d37f21e38a7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828261090,
-        "stop" : 1624828261207,
-        "duration" : 117
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Verifying h1 element is displayed correctly",
-      "uid" : "f7535d969519a406",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828260827,
-        "stop" : 1624828260882,
-        "duration" : 55
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random pass to password field and random email to username field",
-      "uid" : "1198c2639ebaf01d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624831308504,
-        "stop" : 1624831310683,
-        "duration" : 2179
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Checking login button displayed correctly",
-      "uid" : "29ab747bc0033de7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828413728,
-        "stop" : 1624828413769,
-        "duration" : 41
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Verifying password field displayed correctly",
-      "uid" : "32cd438ac4b1961c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828260969,
-        "stop" : 1624828261089,
-        "duration" : 120
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random data to username field",
-      "uid" : "55eabcc106ece8da",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624830859906,
-        "stop" : 1624830860930,
-        "duration" : 1024
+        "start" : 1624890030752,
+        "stop" : 1624890031297,
+        "duration" : 545
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "Checking username field displayed correctly",
-      "uid" : "bec916b6d0446a93",
+      "uid" : "538f25adab9f8288",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1624828260882,
-        "stop" : 1624828260968,
-        "duration" : 86
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Checking logo displayed correctly",
-      "uid" : "e1a967cd7ef03503",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828558092,
-        "stop" : 1624828558183,
-        "duration" : 91
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Checking username field displayed correctly",
-      "uid" : "e77f786ec79ee535",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828558213,
-        "stop" : 1624828558260,
-        "duration" : 47
+        "start" : 1624891938895,
+        "stop" : 1624891938972,
+        "duration" : 77
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "Sending random pass to password field and random name to username field",
-      "uid" : "c8d04f8a96487aca",
+      "uid" : "8e05cc7ddd792cc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624891761923,
+        "stop" : 1624891762492,
+        "duration" : 569
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "11a7fca020831aa0",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1624832234263,
-        "stop" : 1624832235778,
-        "duration" : 1515
+        "start" : 1624892161031,
+        "stop" : 1624892162557,
+        "duration" : 1526
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "f9c2ea018c5008e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624891099862,
+        "stop" : 1624891100697,
+        "duration" : 835
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "fa60782833565358",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624892937358,
+        "stop" : 1624892948267,
+        "duration" : 10909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114", "91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "d6bc2c5e8caf45b2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624890452698,
+        "stop" : 1624890455858,
+        "duration" : 3160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "8da35a63c39fc98d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624890657565,
+        "stop" : 1624890663711,
+        "duration" : 6146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "c4a5ff5d8766c190",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624891631109,
+        "stop" : 1624891634681,
+        "duration" : 3572
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "9b6acf4ec89e8bba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624891757592,
+        "stop" : 1624891761922,
+        "duration" : 4330
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "Verifying password field displayed correctly",
-      "uid" : "20092a0c5bb6a4d1",
+      "uid" : "97053e40c61047f1",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1624828413686,
-        "stop" : 1624828413728,
-        "duration" : 42
+        "start" : 1624891938972,
+        "stop" : 1624891939176,
+        "duration" : 204
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
-      "name" : "Verifying url is correct",
-      "uid" : "175e550a9d7d11d6",
+      "name" : "Checking login button displayed correctly",
+      "uid" : "f461b7739246443a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1624828556524,
-        "stop" : 1624828558091,
-        "duration" : 1567
+        "start" : 1624891939177,
+        "stop" : 1624891939235,
+        "duration" : 58
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
-      "name" : "Checking logo displayed correctly",
-      "uid" : "1ab9a584615ff0dc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624830351677,
-        "stop" : 1624830351761,
-        "duration" : 84
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random pass to password field and random email to username field",
-      "uid" : "83c30d39b5630196",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624831264749,
-        "stop" : 1624831266733,
-        "duration" : 1984
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Verifying url is correct",
-      "uid" : "5937863014554f3f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828259099,
-        "stop" : 1624828260665,
-        "duration" : 1566
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random data to username field",
-      "uid" : "52c443eccce3b292",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624830910979,
-        "stop" : 1624830912727,
-        "duration" : 1748
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random pass to password field and random email to username field",
-      "uid" : "a5b3a6f37e2a264",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624831607383,
-        "stop" : 1624831609377,
-        "duration" : 1994
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random pass to password field and random email to username field",
-      "uid" : "36c276d05d31d726",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624832523671,
-        "stop" : 1624832526852,
-        "duration" : 3181
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Verifying password field displayed correctly",
-      "uid" : "188cbb8d7413fd55",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624830351854,
-        "stop" : 1624830351898,
-        "duration" : 44
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random pass to password field and random email to username field",
-      "uid" : "32f7d50f8962bbb3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624831701092,
-        "stop" : 1624831703382,
-        "duration" : 2290
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Verifying h1 element is displayed correctly",
-      "uid" : "8bb856284ea17367",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828413611,
-        "stop" : 1624828413640,
-        "duration" : 29
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Sending random data to username field",
-      "uid" : "1432497ef9eb2241",
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "1cfb814e2e83e528",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1624830807403,
-        "stop" : 1624830817630,
-        "duration" : 10227
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Checking username field displayed correctly",
-      "uid" : "d49b0247fdb891c3",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828413640,
-        "stop" : 1624828413686,
-        "duration" : 46
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Verifying h1 element is displayed correctly",
-      "uid" : "c492e83ed82a180a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624830351761,
-        "stop" : 1624830351792,
-        "duration" : 31
+        "start" : 1624891311151,
+        "stop" : 1624891311260,
+        "duration" : 109
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "Sending random pass to password field and random email to username field",
-      "uid" : "ac36b9a75d25550e",
+      "uid" : "c1b9ef1e5283627a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1624831809622,
-        "stop" : 1624831813196,
-        "duration" : 3574
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Verifying h1 element is displayed correctly",
-      "uid" : "ea2eb5f2f6eed9ef",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624828558184,
-        "stop" : 1624828558213,
-        "duration" : 29
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-91.0.4472.114" ]
-    }, {
-      "name" : "Checking login button displayed correctly",
-      "uid" : "e3b421731c3ca32",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624830351898,
-        "stop" : 1624830351943,
-        "duration" : 45
+        "start" : 1624892045671,
+        "stop" : 1624892048954,
+        "duration" : 3283
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-91.0.4472.114" ]
     }, {
       "name" : "Sending random pass to password field and random email to username field",
-      "uid" : "cfd060972a0c6f58",
+      "uid" : "ad9c3514eefb09ca",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1624831793429,
-        "stop" : 1624831795753,
-        "duration" : 2324
+        "start" : 1624892157482,
+        "stop" : 1624892161030,
+        "duration" : 3548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Verifying url is correct",
+      "uid" : "55a4a65646c15b9c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624891936752,
+        "stop" : 1624891938417,
+        "duration" : 1665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "4fdc625d70e38ffb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624890935664,
+        "stop" : 1624890936428,
+        "duration" : 764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "561798ff12a4aefa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624891795472,
+        "stop" : 1624891796518,
+        "duration" : 1046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "dbc8e13c126ccc66",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624890790345,
+        "stop" : 1624890791959,
+        "duration" : 1614
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "6d4b8a3246836c1c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1624891266172,
+        "stop" : 1624891311150,
+        "duration" : 44978
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "551d1706422e4620",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624890930488,
+        "stop" : 1624890935663,
+        "duration" : 5175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "d540cff0710c0096",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624892048955,
+        "stop" : 1624892050414,
+        "duration" : 1459
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "50acf2a407793697",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624891792153,
+        "stop" : 1624891795471,
+        "duration" : 3318
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "6c052e097a8dee04",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624891634682,
+        "stop" : 1624891635237,
+        "duration" : 555
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "77ba0ba1a42b5353",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624891096481,
+        "stop" : 1624891099861,
+        "duration" : 3380
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "8385b9a5963d48c8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624892948269,
+        "stop" : 1624892952310,
+        "duration" : 4041
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114", "91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "e7efa978c89066f0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624890786468,
+        "stop" : 1624890790317,
+        "duration" : 3849
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Verifying h1 element is displayed correctly",
+      "uid" : "7fc452358b12c972",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624891938753,
+        "stop" : 1624891938895,
+        "duration" : 142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Checking logo displayed correctly",
+      "uid" : "88b93e40766ea42b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624891938418,
+        "stop" : 1624891938753,
+        "duration" : 335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "ee97bb9e416a4176",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624890027515,
+        "stop" : 1624890030751,
+        "duration" : 3236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "e9d17cf41b455432",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624890455859,
+        "stop" : 1624890456367,
+        "duration" : 508
       },
       "flaky" : false,
       "newFailed" : false,
@@ -541,14 +424,27 @@
   }, {
     "name" : "0-1",
     "children" : [ {
-      "name" : "Sending random data to username field",
-      "uid" : "7fd03c2c67fcc14c",
+      "name" : "Sending random pass to password field and random email to username field",
+      "uid" : "70336feae287f5a0",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1624830350397,
-        "stop" : 1624830350411,
-        "duration" : 14
+        "start" : 1624891940234,
+        "stop" : 1624891943591,
+        "duration" : 3357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Sending random pass to password field and random name to username field",
+      "uid" : "70f43ff5149206c8",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624891943592,
+        "stop" : 1624891944781,
+        "duration" : 1189
       },
       "flaky" : false,
       "newFailed" : false,

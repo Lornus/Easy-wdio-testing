@@ -1,0 +1,412 @@
+{
+  "uid" : "11a7fca020831aa0",
+  "name" : "Sending random pass to password field and random name to username field",
+  "fullName" : "Testing username under difference data.Sending random pass to password field and random name to username field",
+  "historyId" : "2c77d0def0fd3a5d5b46333db54d906f",
+  "time" : {
+    "start" : 1624892161031,
+    "stop" : 1624892162557,
+    "duration" : 1526
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1624892161032,
+        "stop" : 1624892161144,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7857f3c836f943fb",
+        "name" : "Request",
+        "source" : "7857f3c836f943fb.json",
+        "type" : "application/json",
+        "size" : 87
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1624892161144,
+        "stop" : 1624892161155,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2988e2b7bcab1f01",
+        "name" : "Request",
+        "source" : "2988e2b7bcab1f01.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "ced942a503eaa92",
+        "name" : "Response",
+        "source" : "ced942a503eaa92.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/6a37468d-c9b5-4611-98bd-8c0907b8654a/clear",
+      "time" : {
+        "start" : 1624892161159,
+        "stop" : 1624892161203,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/6a37468d-c9b5-4611-98bd-8c0907b8654a/value",
+      "time" : {
+        "start" : 1624892161204,
+        "stop" : 1624892161269,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "144dfd01603da49f",
+        "name" : "Request",
+        "source" : "144dfd01603da49f.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1624892161269,
+        "stop" : 1624892161280,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3cdea2dbfc495646",
+        "name" : "Request",
+        "source" : "3cdea2dbfc495646.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "58e7dfb2da8c708e",
+        "name" : "Response",
+        "source" : "58e7dfb2da8c708e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/940a416e-9bc9-4e04-ae41-78e439cab424/clear",
+      "time" : {
+        "start" : 1624892161284,
+        "stop" : 1624892161321,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/940a416e-9bc9-4e04-ae41-78e439cab424/value",
+      "time" : {
+        "start" : 1624892161322,
+        "stop" : 1624892161402,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3d58051895d540b",
+        "name" : "Request",
+        "source" : "a3d58051895d540b.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1624892161402,
+        "stop" : 1624892161414,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "166aa7e448cfed44",
+        "name" : "Request",
+        "source" : "166aa7e448cfed44.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "1fa9bdd456bba13a",
+        "name" : "Response",
+        "source" : "1fa9bdd456bba13a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/9cdfea1e-8c79-4a1a-bcf0-5c66bdefb0fe/click",
+      "time" : {
+        "start" : 1624892161416,
+        "stop" : 1624892161565,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1624892161565,
+        "stop" : 1624892161580,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3236f949439e949",
+        "name" : "Request",
+        "source" : "b3236f949439e949.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "23cf8e2af2957553",
+        "name" : "Response",
+        "source" : "23cf8e2af2957553.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/4b5ba9d4-f6bc-49d2-9e7f-0a98d52838b6/text",
+      "time" : {
+        "start" : 1624892161584,
+        "stop" : 1624892161602,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d583f2017fc5d231",
+        "name" : "Response",
+        "source" : "d583f2017fc5d231.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing username under difference data"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing username under difference data"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sending random pass to password field and random name to username field"
+  }, {
+    "name" : "package",
+    "value" : "Testing username under difference data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d540cff0710c0096",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624892048955,
+        "stop" : 1624892050414,
+        "duration" : 1459
+      }
+    }, {
+      "uid" : "70f43ff5149206c8",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "time" : {
+        "start" : 1624891943592,
+        "stop" : 1624891944781,
+        "duration" : 1189
+      }
+    }, {
+      "uid" : "561798ff12a4aefa",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "time" : {
+        "start" : 1624891795472,
+        "stop" : 1624891796518,
+        "duration" : 1046
+      }
+    }, {
+      "uid" : "8e05cc7ddd792cc",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "time" : {
+        "start" : 1624891761923,
+        "stop" : 1624891762492,
+        "duration" : 569
+      }
+    }, {
+      "uid" : "6c052e097a8dee04",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "time" : {
+        "start" : 1624891634682,
+        "stop" : 1624891635237,
+        "duration" : 555
+      }
+    }, {
+      "uid" : "1cfb814e2e83e528",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n                  (Session info: chrome=91.0.4472.114)",
+      "time" : {
+        "start" : 1624891311151,
+        "stop" : 1624891311260,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "f9c2ea018c5008e1",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "time" : {
+        "start" : 1624891099862,
+        "stop" : 1624891100697,
+        "duration" : 835
+      }
+    }, {
+      "uid" : "4fdc625d70e38ffb",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "time" : {
+        "start" : 1624890935664,
+        "stop" : 1624890936428,
+        "duration" : 764
+      }
+    }, {
+      "uid" : "dbc8e13c126ccc66",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "time" : {
+        "start" : 1624890790345,
+        "stop" : 1624890791959,
+        "duration" : 1614
+      }
+    }, {
+      "uid" : "1deca99148db3257",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "time" : {
+        "start" : 1624890663711,
+        "stop" : 1624890664722,
+        "duration" : 1011
+      }
+    }, {
+      "uid" : "e9d17cf41b455432",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "time" : {
+        "start" : 1624890455859,
+        "stop" : 1624890456367,
+        "duration" : 508
+      }
+    }, {
+      "uid" : "31d197ebc05914ae",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "time" : {
+        "start" : 1624890030752,
+        "stop" : 1624890031297,
+        "duration" : 545
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11a7fca020831aa0.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

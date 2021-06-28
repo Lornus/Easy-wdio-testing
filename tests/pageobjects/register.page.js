@@ -22,6 +22,8 @@ class RegisterPage {
         return $('[type=submit]')
     }
 
+    get NoUserText(){return $('//*[text() = "No account found with that username."]')}
+
 
 
     async goToPageUrl(){
@@ -98,6 +100,12 @@ class RegisterPage {
         let clicked = await(
             await this.LoginBtn).click()
         return clicked
+    }
+
+    async getNoUserText(){
+        let warning = await(
+            await this.NoUserText).getText()
+        return warning
     }
 
 }

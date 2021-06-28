@@ -9,7 +9,7 @@
     "chai": "^4.3.4",
     "faker": "^5.5.3",
     "wdio-allure-reporter": "^0.8.3",
-    "webdriverio": "^7.7.4"
+    "wdio-video-reporter": "^3.1.2"
   },
   "devDependencies": {
     "@wdio/allure-reporter": "^7.7.3",

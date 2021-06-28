@@ -9,31 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "188cbb8d7413fd55",
+      "uid" : "97053e40c61047f1",
       "status" : "passed",
       "time" : {
-        "start" : 1624830351854,
-        "stop" : 1624830351898,
-        "duration" : 44
-      }
-    } ]
-  },
-  "e066aaa4baca8bc1d796095a297393af" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "36c276d05d31d726",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624832523671,
-        "stop" : 1624832526852,
-        "duration" : 3181
+        "start" : 1624891938972,
+        "stop" : 1624891939176,
+        "duration" : 204
       }
     } ]
   },
@@ -47,16 +28,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e3b421731c3ca32",
+      "uid" : "f461b7739246443a",
       "status" : "passed",
       "time" : {
-        "start" : 1624830351898,
-        "stop" : 1624830351943,
-        "duration" : 45
+        "start" : 1624891939177,
+        "stop" : 1624891939235,
+        "duration" : 58
       }
     } ]
   },
-  "611f56a0207f2291927422e463947470" : {
+  "e066aaa4baca8bc1d796095a297393af" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -66,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "52c443eccce3b292",
+      "uid" : "ad9c3514eefb09ca",
       "status" : "passed",
       "time" : {
-        "start" : 1624830910979,
-        "stop" : 1624830912727,
-        "duration" : 1748
+        "start" : 1624892157482,
+        "stop" : 1624892161030,
+        "duration" : 3548
       }
     } ]
   },
@@ -85,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6bcbe3624347b1d5",
+      "uid" : "11a7fca020831aa0",
       "status" : "passed",
       "time" : {
-        "start" : 1624832526852,
-        "stop" : 1624832528280,
-        "duration" : 1428
+        "start" : 1624892161031,
+        "stop" : 1624892162557,
+        "duration" : 1526
       }
     } ]
   },
@@ -104,16 +85,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1ab9a584615ff0dc",
+      "uid" : "88b93e40766ea42b",
       "status" : "passed",
       "time" : {
-        "start" : 1624830351677,
-        "stop" : 1624830351761,
-        "duration" : 84
+        "start" : 1624891938418,
+        "stop" : 1624891938753,
+        "duration" : 335
       }
     } ]
   },
-  "e9134a552cff4511a01e36be08ac93f2" : {
+  "c05d72422d6dd79e2e79c6ca8e0dc295" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -123,12 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c134c7a45257b43b",
+      "uid" : "fa60782833565358",
       "status" : "passed",
       "time" : {
-        "start" : 1624830349376,
-        "stop" : 1624830351676,
-        "duration" : 2300
+        "start" : 1624892937358,
+        "stop" : 1624892948267,
+        "duration" : 10909
       }
     } ]
   },
@@ -142,12 +123,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c492e83ed82a180a",
+      "uid" : "7fc452358b12c972",
       "status" : "passed",
       "time" : {
-        "start" : 1624830351761,
-        "stop" : 1624830351792,
-        "duration" : 31
+        "start" : 1624891938753,
+        "stop" : 1624891938895,
+        "duration" : 142
+      }
+    } ]
+  },
+  "e9134a552cff4511a01e36be08ac93f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55a4a65646c15b9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624891936752,
+        "stop" : 1624891938417,
+        "duration" : 1665
+      }
+    } ]
+  },
+  "b59089bed0abf1803398494f5df7bd7b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8385b9a5963d48c8",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "time" : {
+        "start" : 1624892948269,
+        "stop" : 1624892952310,
+        "duration" : 4041
       }
     } ]
   },
@@ -161,12 +181,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b352a170a3ac8e3a",
+      "uid" : "538f25adab9f8288",
       "status" : "passed",
       "time" : {
-        "start" : 1624830351792,
-        "stop" : 1624830351854,
-        "duration" : 62
+        "start" : 1624891938895,
+        "stop" : 1624891938972,
+        "duration" : 77
       }
     } ]
   }

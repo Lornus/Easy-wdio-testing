@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+      "children" : [ {
+        "name" : "Sending random pass to password field and random name to username field",
+        "uid" : "8385b9a5963d48c8",
+        "parentUid" : "c6354fd8c283e001b66e0f7cc34ce5f7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624892948269,
+          "stop" : 1624892952310,
+          "duration" : 4041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-91.0.4472.114", "91.0.4472.114" ]
+      } ],
+      "uid" : "c6354fd8c283e001b66e0f7cc34ce5f7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
