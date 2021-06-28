@@ -7,7 +7,7 @@ Repo with test task
 3. To see report - npm run report 
 
 # If you don't have Node 
-1.Download Node.js (https://nodejs.org/en/download/)
+1. Download Node.js (https://nodejs.org/en/download/)
 2. Now you have Node so you can repeat steps if you have Node
 
 # Reporter 
