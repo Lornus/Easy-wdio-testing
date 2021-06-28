@@ -35,8 +35,5 @@ describe('Testing username under difference data', () => {
         await registerPage.clickOnLoginBtn()
 
         assert.strictEqual(await registerPage.getNoUserText(), "No account found with that username1.")
-
-        await browser.pause(950)
-
     })
 })
