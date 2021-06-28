@@ -1,26 +1,48 @@
 {
-  "total" : 2,
+  "total" : 4,
   "items" : [ {
-    "uid" : "5d0f02cbcb58ac7a5df1ef0914ef9860",
-    "name" : "Testing username under difference data",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
     "uid" : "cdc38cb73724812b46817ef2032894dd",
     "name" : "Verifying all elements are on page",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 6
+      "total" : 12
+    }
+  }, {
+    "uid" : "5d0f02cbcb58ac7a5df1ef0914ef9860",
+    "name" : "Testing username under difference data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "9f0f097485cca4169d4c13256787f99f",
+    "name" : "Getting all error messages",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "a9e6268de8e3f3a9c5b074987f63149d",
+    "name" : "Testing username and password under difference data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
     }
   } ]
 }

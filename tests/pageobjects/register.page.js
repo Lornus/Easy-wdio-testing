@@ -2,27 +2,21 @@ class RegisterPage {
 
     get PageUrl() {return 'https://www.pecodesoftware.com/qa-portal/registerlogin/registerlogin.php'}
 
-    get Logomini() {
-        return $('#logomini')
-    }
+    get Logomini() {return $('#logomini')}
 
-    get Header() {
-        return $('//*[text() = "QA Portal Login"]')
-    }
+    get Header() {return  $('//*[text() = "QA Portal Login"]')}
 
-    get UserNameField() {
-        return $('[name="username"]')
-    }
+    get UserNameField() {return $('[name="username"]')}
 
-    get PassField() {
-        return $('[name="password"]')
-    }
+    get PassField() {return $('[name="password"]')}
 
-    get LoginBtn() {
-        return $('[type=submit]')
-    }
+    get LoginBtn() {return $('[type=submit]')}
 
     get NoUserText(){return $('//*[text() = "No account found with that username."]')}
+
+    get EmptyUsername() {return $('//*[text() = "Please enter username."]')}
+
+    get EmptyPassword(){return $('//*[text() = "Please enter your password."]')}
 
 
 
@@ -106,6 +100,30 @@ class RegisterPage {
         let warning = await(
             await this.NoUserText).getText()
         return warning
+    }
+
+    async checkEmptyUsernameDisplayed(){
+       let checked =  await (
+            await this.EmptyUsername).isDisplayed()
+        return checked
+    }
+
+    async getEmptyUsernameText(){
+        let textError = await (
+            await this.EmptyUsername).getText()
+        return textError
+    }
+
+    async checkEmptyPasswordDisplayed(){
+        let checked = await (
+            await this.EmptyPassword).isDisplayed()
+        return checked
+    }
+
+    async getEmptyPasswordText(){
+        let textError = await (
+            await this.EmptyPassword).getText()
+        return textError
     }
 
 }

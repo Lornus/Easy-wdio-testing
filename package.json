@@ -21,7 +21,8 @@
     "wdio-chromedriver-service": "^7.1.1"
   },
   "scripts": {
-    "test": "npx wdio run ./wdio.conf.js"
+    "test": "npx wdio run ./wdio.conf.js",
+    "report": "npx allure generate --clean && allure open"
   },
   "repository": {
     "type": "git",

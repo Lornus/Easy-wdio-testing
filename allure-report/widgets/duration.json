@@ -1,5 +1,5 @@
 [ {
-  "uid" : "7fc452358b12c972",
+  "uid" : "76b51445189c36ac",
   "name" : "Verifying h1 element is displayed correctly",
   "time" : {
     "start" : 1624891938753,
@@ -9,27 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "538f25adab9f8288",
-  "name" : "Checking username field displayed correctly",
-  "time" : {
-    "start" : 1624891938895,
-    "stop" : 1624891938972,
-    "duration" : 77
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad9c3514eefb09ca",
-  "name" : "Sending random pass to password field and random email to username field",
-  "time" : {
-    "start" : 1624892157482,
-    "stop" : 1624892161030,
-    "duration" : 3548
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f461b7739246443a",
+  "uid" : "88f59905a76f7c89",
   "name" : "Checking login button displayed correctly",
   "time" : {
     "start" : 1624891939177,
@@ -39,47 +19,47 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "88b93e40766ea42b",
-  "name" : "Checking logo displayed correctly",
+  "uid" : "4e0271ae7bd472f7",
+  "name" : "Sending random pass to password field and random name to username field",
   "time" : {
-    "start" : 1624891938418,
-    "stop" : 1624891938753,
-    "duration" : 335
+    "start" : 1624912977591,
+    "stop" : 1624912985022,
+    "duration" : 7431
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fa60782833565358",
-  "name" : "Sending random pass to password field and random email to username field",
+  "uid" : "c225e995f67ffc3a",
+  "name" : "Sending random pass to password field and random name to username field",
   "time" : {
-    "start" : 1624892937358,
-    "stop" : 1624892948267,
-    "duration" : 10909
+    "start" : 1624911563953,
+    "stop" : 1624911570543,
+    "duration" : 6590
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "55a4a65646c15b9c",
-  "name" : "Verifying url is correct",
+  "uid" : "31ba8b865fdd089b",
+  "name" : "Checking login button displayed correctly",
   "time" : {
-    "start" : 1624891936752,
-    "stop" : 1624891938417,
-    "duration" : 1665
+    "start" : 1624912976653,
+    "stop" : 1624912977694,
+    "duration" : 1041
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "97053e40c61047f1",
-  "name" : "Verifying password field displayed correctly",
+  "uid" : "be3e1b94a9838b45",
+  "name" : "Unknown user tries to login",
   "time" : {
-    "start" : 1624891938972,
-    "stop" : 1624891939176,
-    "duration" : 204
+    "start" : 1624912986152,
+    "stop" : 1624912994615,
+    "duration" : 8463
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "11a7fca020831aa0",
+  "uid" : "959aa93027a5faca",
   "name" : "Sending random pass to password field and random name to username field",
   "time" : {
     "start" : 1624892161031,
@@ -89,13 +69,153 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8385b9a5963d48c8",
-  "name" : "Sending random pass to password field and random name to username field",
+  "uid" : "c4785836365b99d2",
+  "name" : "Verifying url is correct",
   "time" : {
-    "start" : 1624892948269,
-    "stop" : 1624892952310,
-    "duration" : 4041
+    "start" : 1624891936752,
+    "stop" : 1624891938417,
+    "duration" : 1665
   },
-  "status" : "failed",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f78d619ace4c7518",
+  "name" : "Sending random pass to password field and random email to username field",
+  "time" : {
+    "start" : 1624912970103,
+    "stop" : 1624912977584,
+    "duration" : 7481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d419019496158ca",
+  "name" : "Checking username field displayed correctly",
+  "time" : {
+    "start" : 1624891938895,
+    "stop" : 1624891938972,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee8dea2969455d8a",
+  "name" : "Checking logo displayed correctly",
+  "time" : {
+    "start" : 1624912971255,
+    "stop" : 1624912973082,
+    "duration" : 1827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e40ac1461f544bd",
+  "name" : "Verifying h1 element is displayed correctly",
+  "time" : {
+    "start" : 1624912973085,
+    "stop" : 1624912974162,
+    "duration" : 1077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51115f6e4986180b",
+  "name" : "Username is empty",
+  "time" : {
+    "start" : 1624912974173,
+    "stop" : 1624912978734,
+    "duration" : 4561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62ee4d2141234543",
+  "name" : "Sending random pass to password field and random email to username field",
+  "time" : {
+    "start" : 1624892157482,
+    "stop" : 1624892161030,
+    "duration" : 3548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "387ff1e1b6b78bd3",
+  "name" : "Password is empty",
+  "time" : {
+    "start" : 1624912978737,
+    "stop" : 1624912986149,
+    "duration" : 7412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64476dba26e89641",
+  "name" : "Checking username field displayed correctly",
+  "time" : {
+    "start" : 1624912974166,
+    "stop" : 1624912975315,
+    "duration" : 1149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b384659f59be9504",
+  "name" : "Verifying password field displayed correctly",
+  "time" : {
+    "start" : 1624912975319,
+    "stop" : 1624912976648,
+    "duration" : 1329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "966e9b788f6234e",
+  "name" : "Sending random pass to password field and random email to username field",
+  "time" : {
+    "start" : 1624911552190,
+    "stop" : 1624911563949,
+    "duration" : 11759
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "577d36e45ee9c0f6",
+  "name" : "Verifying url is correct",
+  "time" : {
+    "start" : 1624912968575,
+    "stop" : 1624912971238,
+    "duration" : 2663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e671a796c362a4f9",
+  "name" : "Verifying password field displayed correctly",
+  "time" : {
+    "start" : 1624891938972,
+    "stop" : 1624891939176,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a327760a408248ac",
+  "name" : "Username and password are empty",
+  "time" : {
+    "start" : 1624912970948,
+    "stop" : 1624912974163,
+    "duration" : 3215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "386da8f6fb80c2ea",
+  "name" : "Checking logo displayed correctly",
+  "time" : {
+    "start" : 1624891938418,
+    "stop" : 1624891938753,
+    "duration" : 335
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

@@ -1,0 +1,323 @@
+{
+  "uid" : "ae55980a4e7f5bd",
+  "name" : "Sending random pass to password field and random name to username field",
+  "fullName" : "Testing username under difference data.Sending random pass to password field and random name to username field",
+  "historyId" : "2c77d0def0fd3a5d5b46333db54d906f",
+  "time" : {
+    "start" : 1624890935664,
+    "stop" : 1624890936428,
+    "duration" : 764
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^\n                    at Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/username.field.test.js:37:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^\n                    at Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/username.field.test.js:37:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1624890935664,
+        "stop" : 1624890935876,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a1a9e27a8400850",
+        "name" : "Request",
+        "source" : "4a1a9e27a8400850.json",
+        "type" : "application/json",
+        "size" : 87
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1624890935876,
+        "stop" : 1624890935889,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64c9e770eb0c140f",
+        "name" : "Request",
+        "source" : "64c9e770eb0c140f.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "a3f50a71ecf9a2c2",
+        "name" : "Response",
+        "source" : "a3f50a71ecf9a2c2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b9c5b105-9e33-4686-a306-2058b5ab6b92/clear",
+      "time" : {
+        "start" : 1624890935892,
+        "stop" : 1624890935933,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/b9c5b105-9e33-4686-a306-2058b5ab6b92/value",
+      "time" : {
+        "start" : 1624890935933,
+        "stop" : 1624890935991,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee91884674df67d4",
+        "name" : "Request",
+        "source" : "ee91884674df67d4.json",
+        "type" : "application/json",
+        "size" : 27
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1624890935991,
+        "stop" : 1624890936002,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c563bd5b5d015287",
+        "name" : "Request",
+        "source" : "c563bd5b5d015287.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "fb53e0ffd98a3bff",
+        "name" : "Response",
+        "source" : "fb53e0ffd98a3bff.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/918562e0-17de-4e9d-b5bc-a47ab07561ce/clear",
+      "time" : {
+        "start" : 1624890936006,
+        "stop" : 1624890936042,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/918562e0-17de-4e9d-b5bc-a47ab07561ce/value",
+      "time" : {
+        "start" : 1624890936043,
+        "stop" : 1624890936119,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c450f6c22b462442",
+        "name" : "Request",
+        "source" : "c450f6c22b462442.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1624890936119,
+        "stop" : 1624890936128,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "863011c288562294",
+        "name" : "Request",
+        "source" : "863011c288562294.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "f8ffe8362b546709",
+        "name" : "Response",
+        "source" : "f8ffe8362b546709.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/aefb90ed-c759-4527-91fe-94732c077e1e/click",
+      "time" : {
+        "start" : 1624890936131,
+        "stop" : 1624890936386,
+        "duration" : 255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1624890936386,
+        "stop" : 1624890936397,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6d59e25747c80ea",
+        "name" : "Request",
+        "source" : "e6d59e25747c80ea.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "f9b44416c28c6bf4",
+        "name" : "Response",
+        "source" : "f9b44416c28c6bf4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/6b03e498-6fcd-4559-80f8-167c48b598ca/text",
+      "time" : {
+        "start" : 1624890936400,
+        "stop" : 1624890936421,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f06a1845c75b318",
+        "name" : "Response",
+        "source" : "9f06a1845c75b318.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1624890936424,
+        "stop" : 1624890936426,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + 'No account found with that username.'\n                - 'No account found with that username1.'\n                                                      ^\n                    at Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/username.field.test.js:37:16)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing username under difference data"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing username under difference data"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sending random pass to password field and random name to username field"
+  }, {
+    "name" : "package",
+    "value" : "Testing username under difference data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae55980a4e7f5bd.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

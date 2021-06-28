@@ -1,0 +1,642 @@
+{
+  "uid" : "e35b892a24f70e19",
+  "name" : "Username is empty",
+  "fullName" : "Getting all error messages.Username is empty",
+  "historyId" : "28434caa222fb7bdcbfc30c01e02f980",
+  "time" : {
+    "start" : 1624903253112,
+    "stop" : 1624903263213,
+    "duration" : 10101
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async RegisterPage.setPassword (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/pageobjects/register.page.js:77:24)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/error.massages.test.js:22:9)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async RegisterPage.setPassword (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/pageobjects/register.page.js:77:24)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/error.massages.test.js:22:9)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1624903253120,
+        "stop" : 1624903253164,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "790ac994aa314913",
+        "name" : "Request",
+        "source" : "790ac994aa314913.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "28ae394824841019",
+        "name" : "Response",
+        "source" : "28ae394824841019.json",
+        "type" : "application/json",
+        "size" : 1863
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903253177,
+        "stop" : 1624903253195,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d84a9f25c30a6f2",
+        "name" : "Request",
+        "source" : "8d84a9f25c30a6f2.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "d71df12f95b6afc3",
+        "name" : "Response",
+        "source" : "d71df12f95b6afc3.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903253680,
+        "stop" : 1624903253697,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c273e7db9710b6f2",
+        "name" : "Request",
+        "source" : "c273e7db9710b6f2.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "6943b4fc0ff59f1b",
+        "name" : "Response",
+        "source" : "6943b4fc0ff59f1b.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903254185,
+        "stop" : 1624903254199,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b978c7b6b68e7c7b",
+        "name" : "Request",
+        "source" : "b978c7b6b68e7c7b.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "84b04e20ad427fb8",
+        "name" : "Response",
+        "source" : "84b04e20ad427fb8.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903254682,
+        "stop" : 1624903254696,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9101a174ab5b92c3",
+        "name" : "Request",
+        "source" : "9101a174ab5b92c3.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "5381e25d37e064c7",
+        "name" : "Response",
+        "source" : "5381e25d37e064c7.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903255182,
+        "stop" : 1624903255197,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7cddc10d7c3a3b91",
+        "name" : "Request",
+        "source" : "7cddc10d7c3a3b91.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "971f970e398ea935",
+        "name" : "Response",
+        "source" : "971f970e398ea935.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903255682,
+        "stop" : 1624903255698,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d2ec7a01a2e67abb",
+        "name" : "Request",
+        "source" : "d2ec7a01a2e67abb.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "caf81754c3e134a3",
+        "name" : "Response",
+        "source" : "caf81754c3e134a3.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903256179,
+        "stop" : 1624903256194,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7508de12a8cdff0",
+        "name" : "Request",
+        "source" : "7508de12a8cdff0.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "d35d4697f5a65ab9",
+        "name" : "Response",
+        "source" : "d35d4697f5a65ab9.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903256679,
+        "stop" : 1624903256692,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9c9ba2d350d7409",
+        "name" : "Request",
+        "source" : "f9c9ba2d350d7409.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "1786000d919cb03",
+        "name" : "Response",
+        "source" : "1786000d919cb03.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903257179,
+        "stop" : 1624903257189,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eab41159ff1e465",
+        "name" : "Request",
+        "source" : "eab41159ff1e465.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "c44d748d28b41f0e",
+        "name" : "Response",
+        "source" : "c44d748d28b41f0e.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903257679,
+        "stop" : 1624903257692,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fba1c3fdbac95a9e",
+        "name" : "Request",
+        "source" : "fba1c3fdbac95a9e.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "487f08cb17b6d1e",
+        "name" : "Response",
+        "source" : "487f08cb17b6d1e.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903258180,
+        "stop" : 1624903258194,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "83664c628abf3e83",
+        "name" : "Request",
+        "source" : "83664c628abf3e83.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "17d1f56b64847167",
+        "name" : "Response",
+        "source" : "17d1f56b64847167.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903258679,
+        "stop" : 1624903258692,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5844170f83c2ccf",
+        "name" : "Request",
+        "source" : "5844170f83c2ccf.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "1050bcd1265b24e0",
+        "name" : "Response",
+        "source" : "1050bcd1265b24e0.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903259179,
+        "stop" : 1624903259194,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff11344d157791c9",
+        "name" : "Request",
+        "source" : "ff11344d157791c9.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "2af2d23e7e3dd198",
+        "name" : "Response",
+        "source" : "2af2d23e7e3dd198.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1624903259680,
+        "stop" : 1624903263213,
+        "duration" : 3533
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async RegisterPage.setPassword (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/pageobjects/register.page.js:77:24)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/error.massages.test.js:22:9)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1624903260179,
+          "stop" : 1624903263213,
+          "duration" : 3034
+        },
+        "status" : "broken",
+        "statusMessage" : "Error: Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async RegisterPage.setPassword (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/pageobjects/register.page.js:77:24)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/error.massages.test.js:22:9)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/elements",
+          "time" : {
+            "start" : 1624903260679,
+            "stop" : 1624903263213,
+            "duration" : 2534
+          },
+          "status" : "broken",
+          "statusMessage" : "Error: Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async RegisterPage.setPassword (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/pageobjects/register.page.js:77:24)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/error.massages.test.js:22:9)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/elements",
+            "time" : {
+              "start" : 1624903261179,
+              "stop" : 1624903263213,
+              "duration" : 2034
+            },
+            "status" : "broken",
+            "statusMessage" : "Error: Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async RegisterPage.setPassword (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/pageobjects/register.page.js:77:24)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/error.massages.test.js:22:9)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+            "steps" : [ {
+              "name" : "POST /session/:sessionId/elements",
+              "time" : {
+                "start" : 1624903261681,
+                "stop" : 1624903263213,
+                "duration" : 1532
+              },
+              "status" : "broken",
+              "statusMessage" : "Error: Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async RegisterPage.setPassword (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/pageobjects/register.page.js:77:24)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/error.massages.test.js:22:9)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+              "steps" : [ {
+                "name" : "POST /session/:sessionId/elements",
+                "time" : {
+                  "start" : 1624903262183,
+                  "stop" : 1624903263213,
+                  "duration" : 1030
+                },
+                "status" : "broken",
+                "statusMessage" : "Error: Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async RegisterPage.setPassword (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/pageobjects/register.page.js:77:24)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/error.massages.test.js:22:9)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+                "steps" : [ {
+                  "name" : "POST /session/:sessionId/elements",
+                  "time" : {
+                    "start" : 1624903262679,
+                    "stop" : 1624903263213,
+                    "duration" : 534
+                  },
+                  "status" : "broken",
+                  "statusMessage" : "Error: Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async RegisterPage.setPassword (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/pageobjects/register.page.js:77:24)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/error.massages.test.js:22:9)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+                  "steps" : [ {
+                    "name" : "GET /session/:sessionId/screenshot",
+                    "time" : {
+                      "start" : 1624903263180,
+                      "stop" : 1624903263213,
+                      "duration" : 33
+                    },
+                    "status" : "broken",
+                    "statusMessage" : "Error: Can't call setValue on element with selector \"[name=\"password\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at async Element.wrapCommandFn (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at async RegisterPage.setPassword (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/pageobjects/register.page.js:77:24)\n                    at async Context.<anonymous> (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/tests/specs/error.massages.test.js:22:9)\n                    at async Context.executeAsync (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at async Context.testFrameworkFnWrapper (/Users/macbook/Study/summerBummer/Pecode/PetrenkoTestTask/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+                    "steps" : [ ],
+                    "attachments" : [ ],
+                    "parameters" : [ ],
+                    "stepsCount" : 0,
+                    "attachmentsCount" : 0,
+                    "shouldDisplayMessage" : true,
+                    "hasContent" : true
+                  } ],
+                  "attachments" : [ {
+                    "uid" : "a86dfa1c38a5314f",
+                    "name" : "Request",
+                    "source" : "a86dfa1c38a5314f.json",
+                    "type" : "application/json",
+                    "size" : 63
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 1,
+                  "attachmentsCount" : 1,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ {
+                  "uid" : "dc415b9414746542",
+                  "name" : "Request",
+                  "source" : "dc415b9414746542.json",
+                  "type" : "application/json",
+                  "size" : 63
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 2,
+                "attachmentsCount" : 2,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ {
+                "uid" : "a04c6dc0ea455e27",
+                "name" : "Request",
+                "source" : "a04c6dc0ea455e27.json",
+                "type" : "application/json",
+                "size" : 63
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 3,
+              "attachmentsCount" : 3,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "9407a2bc6404b726",
+              "name" : "Request",
+              "source" : "9407a2bc6404b726.json",
+              "type" : "application/json",
+              "size" : 63
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 4,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "40e1e83392a66bf0",
+            "name" : "Request",
+            "source" : "40e1e83392a66bf0.json",
+            "type" : "application/json",
+            "size" : 63
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 5,
+          "attachmentsCount" : 5,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "510fe08e0324c48a",
+          "name" : "Request",
+          "source" : "510fe08e0324c48a.json",
+          "type" : "application/json",
+          "size" : 63
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b05b85e40f9bd4b9",
+        "name" : "Request",
+        "source" : "b05b85e40f9bd4b9.json",
+        "type" : "application/json",
+        "size" : 63
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1624903263215,
+        "stop" : 0,
+        "duration" : -1624903263215
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8314dd3bd00f95ae",
+      "name" : "Execution video",
+      "source" : "8314dd3bd00f95ae.mp4",
+      "type" : "video/mp4",
+      "size" : 151
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 23,
+    "attachmentsCount" : 36,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Getting all error messages"
+  }, {
+    "name" : "testClass",
+    "value" : "Getting all error messages"
+  }, {
+    "name" : "testMethod",
+    "value" : "Username is empty"
+  }, {
+    "name" : "package",
+    "value" : "Getting all error messages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  }, {
+    "name" : "browserVersion",
+    "value" : "91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e35b892a24f70e19.json",
+  "parameterValues" : [ "chrome-91.0.4472.114", "91.0.4472.114" ]
+}

@@ -2,7 +2,7 @@ const registerPage = require('../pageobjects/register.page')
 const assert = require('assert')
 const faker = require('faker')
 
-describe('Testing username under difference data', () => {
+describe('Testing username and password under difference data', () => {
     it('Sending random pass to password field and random email to username field', async () => {
         await registerPage.goToPageUrl()
 
@@ -12,13 +12,9 @@ describe('Testing username under difference data', () => {
         let randomPass = await faker.internet.password()
         await registerPage.setPassword(randomPass)
 
-        await browser.pause(950)
-
         await registerPage.clickOnLoginBtn()
 
         assert.strictEqual(await registerPage.getNoUserText(), "No account found with that username.")
-
-        await browser.pause(950)
 
 
     })
@@ -34,6 +30,6 @@ describe('Testing username under difference data', () => {
 
         await registerPage.clickOnLoginBtn()
 
-        assert.strictEqual(await registerPage.getNoUserText(), "No account found with that username1.")
+        assert.strictEqual(await registerPage.getNoUserText(), "No account found with that username.")
     })
 })

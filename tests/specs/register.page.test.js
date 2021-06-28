@@ -5,7 +5,6 @@ describe('Verifying all elements are on page', () => {
         it('Verifying url is correct', async () => {
             await registerPage.goToPageUrl()
             assert.strictEqual(await browser.getUrl(), 'https://www.pecodesoftware.com/qa-portal/registerlogin/registerlogin.php')
-            await browser.pause(950)
         })
 
         it('Checking logo displayed correctly', async () => {
