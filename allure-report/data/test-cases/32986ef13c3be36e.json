@@ -1,0 +1,146 @@
+{
+  "uid" : "32986ef13c3be36e",
+  "name" : "Verifying h1 element is displayed correctly",
+  "fullName" : "Verifying all elements are on page.Verifying h1 element is displayed correctly",
+  "historyId" : "ba3fd38c66008370b8780f13df92711d",
+  "time" : {
+    "start" : 1624913353185,
+    "stop" : 1624913354387,
+    "duration" : 1202
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1624913353187,
+        "stop" : 1624913354350,
+        "duration" : 1163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "705dbb18aa87b04a",
+        "name" : "Request",
+        "source" : "705dbb18aa87b04a.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "cdface51d6d1dc77",
+        "name" : "Screenshot",
+        "source" : "cdface51d6d1dc77.png",
+        "type" : "image/png",
+        "size" : 718718
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/19f3f1e3-6428-4be8-b07f-3ce3c953a11e/text",
+      "time" : {
+        "start" : 1624913354365,
+        "stop" : 1624913354387,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce31fa3bb6a8b24f",
+        "name" : "Response",
+        "source" : "ce31fa3bb6a8b24f.json",
+        "type" : "application/json",
+        "size" : 17
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1624913354388,
+        "stop" : 0,
+        "duration" : -1624913354388
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5c6cdfcb498c2eab",
+      "name" : "Response",
+      "source" : "5c6cdfcb498c2eab.json",
+      "type" : "application/json",
+      "size" : 83
+    }, {
+      "uid" : "8975167981a4c187",
+      "name" : "Execution video",
+      "source" : "8975167981a4c187.mp4",
+      "type" : "video/mp4",
+      "size" : 7365
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying all elements are on page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying all elements are on page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying h1 element is displayed correctly"
+  }, {
+    "name" : "package",
+    "value" : "Verifying all elements are on page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  }, {
+    "name" : "browserVersion",
+    "value" : "91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32986ef13c3be36e.json",
+  "parameterValues" : [ "chrome-91.0.4472.114", "91.0.4472.114" ]
+}

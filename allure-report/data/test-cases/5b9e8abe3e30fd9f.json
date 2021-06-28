@@ -1,0 +1,170 @@
+{
+  "uid" : "5b9e8abe3e30fd9f",
+  "name" : "Verifying url is correct",
+  "fullName" : "Verifying all elements are on page.Verifying url is correct",
+  "historyId" : "2f5ef5b698edd2a0714c62b3200a2d80",
+  "time" : {
+    "start" : 1624913348733,
+    "stop" : 1624913350513,
+    "duration" : 1780
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1624913348736,
+        "stop" : 1624913349230,
+        "duration" : 494
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8ffadd1fb3fbd90",
+        "name" : "Request",
+        "source" : "b8ffadd1fb3fbd90.json",
+        "type" : "application/json",
+        "size" : 87
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1624913349231,
+        "stop" : 1624913350511,
+        "duration" : 1280
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/url",
+        "time" : {
+          "start" : 1624913349232,
+          "stop" : 1624913350506,
+          "duration" : 1274
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "913a72e9ccbb755b",
+          "name" : "Screenshot",
+          "source" : "913a72e9ccbb755b.png",
+          "type" : "image/png",
+          "size" : 718718
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "248dca0dfaf54820",
+        "name" : "Response",
+        "source" : "248dca0dfaf54820.json",
+        "type" : "application/json",
+        "size" : 74
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1624913350511,
+        "stop" : 0,
+        "duration" : -1624913350511
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1624913350518,
+          "stop" : 0,
+          "duration" : -1624913350518
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "4b54d0c260151351",
+        "name" : "Execution video",
+        "source" : "4b54d0c260151351.mp4",
+        "type" : "video/mp4",
+        "size" : 12189
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Verifying all elements are on page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verifying all elements are on page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying url is correct"
+  }, {
+    "name" : "package",
+    "value" : "Verifying all elements are on page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  }, {
+    "name" : "browserVersion",
+    "value" : "91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b9e8abe3e30fd9f.json",
+  "parameterValues" : [ "chrome-91.0.4472.114", "91.0.4472.114" ]
+}

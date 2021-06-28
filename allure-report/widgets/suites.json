@@ -1,5 +1,5 @@
 {
-  "total" : 4,
+  "total" : 3,
   "items" : [ {
     "uid" : "cdc38cb73724812b46817ef2032894dd",
     "name" : "Verifying all elements are on page",
@@ -7,20 +7,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 12
-    }
-  }, {
-    "uid" : "5d0f02cbcb58ac7a5df1ef0914ef9860",
-    "name" : "Testing username under difference data",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 4
+      "total" : 6
     }
   }, {
     "uid" : "9f0f097485cca4169d4c13256787f99f",
