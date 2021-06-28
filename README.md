@@ -2,7 +2,7 @@
 Repo with test task 
 
 # How to run if you have Node
-1. Clone thid repo
+1. Clone this repo
 2. npm install 
 3. npm test 
 4. To see report - npm run report 
