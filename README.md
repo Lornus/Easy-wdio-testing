@@ -1,6 +1,9 @@
 # PetrenkoTestTask
 Repo with test task 
 
+# Stack 
+Node.Js + Webdriverio + Mocha + Chai 
+
 # How to run if you have Node
 1. Clone this repo
 2. npm install 
