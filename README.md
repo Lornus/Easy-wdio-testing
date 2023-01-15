@@ -6,7 +6,7 @@ Node.Js + Webdriverio + Mocha + Chai
 # How to run if you have Node
 1. Clone this repo
 2. npm install 
-3. npm test 
+3. npm run test 
 4. To see report - npm run report 
 
 # If you don't have Node 
