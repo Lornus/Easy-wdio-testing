@@ -1,5 +1,4 @@
-# PetrenkoTestTask
-Repo with test task 
+
 
 # Stack 
 Node.Js + Webdriverio + Mocha + Chai 
@@ -22,5 +21,3 @@ For every test-case there are screenshots and video that displayes in allure htm
 
 # About failure test-cases
 All tests are passed so you won't see failures, you asked to do failure screenshots, but in report now there are screenshots for all tests and in case of failure screenshot will be taken as well.
-
- # Thanks you for your time, feedback wiil be very vital for me!
