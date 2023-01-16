@@ -30,6 +30,7 @@ stages{
       script{
         sh label: 'Cleanup working directoty', script: """
         echo "Cleaning work directory..."
+        rm -rf .
         ls -a
         """
       }
