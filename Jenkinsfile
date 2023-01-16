@@ -30,7 +30,8 @@ stages{
       script{
         sh label: 'Cleanup working directoty', script: """
         echo "Cleaning work directory..."
-        rm -rf .
+        rm -rf /var/jenkins_home/workspace/automation
+        rm -rf .git*
         ls -a
         """
       }
